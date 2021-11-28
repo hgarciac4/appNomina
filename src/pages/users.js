@@ -1,9 +1,6 @@
 import React, { Component }  from "react";
 import { Link } from "react-router-dom";
 
-import Header from "../component/header";
-import Footer from "../component/footer";
-
 class Users extends Component {
     render() {
         return (
@@ -21,8 +18,8 @@ class Users extends Component {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav ms-auto">
-                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="admin.html">INICIO</a></li>
-                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">SALIDA</a></li>
+                                <li class="nav-item mx-0 mx-lg-1"><Link class="nav-link py-3 px-0 px-lg-3 rounded" to="/dashboard">INICIO</Link></li>
+                                <li class="nav-item mx-0 mx-lg-1"><Link class="nav-link py-3 px-0 px-lg-3 rounded" to="/">SALIDA</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -74,7 +71,7 @@ class Users extends Component {
                                 </p>
                             </center></p>
                             <p><center>
-                                <input type="submit" name="submit" id="submit" value="CREAR" />
+                                <Link to="/dashboard" >CREAR</Link>
                             </center></p>
                         </div>
                     </div>

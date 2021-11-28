@@ -82,9 +82,8 @@ class Dashboard extends Component {
                                             <label for="identificacion">Identificacion:</label>
                                             <input type="identificacion" name="identificacion" id="identificacion" />
                                             <p class="mb-4">Favor ingresar el numero de documento del usuario a consultar.</p>
-                                            <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                                <i class="fas fa-paper-plane"></i><a class="nav-link" href="cusers.html"></a>
-                                                Enviar
+                                            <button class="btn btn-primary" href="#!" onClick="modalbackdropOff()" >
+                                                <i class="fas fa-paper-plane"></i><Link to="/user" class="enlace">Enviar</Link>
                                             </button>
                                         </div>
                                     </div>
@@ -110,9 +109,8 @@ class Dashboard extends Component {
                                             </div>
                                             <img src="assets/img/portfolio/nomina.png" alt="..." width="350" class="img-fluid rounded mb-5" />
                                             <p class="mb-4">Ingresara con los permisos del usuario NOMINA ¿Desea continuar?</p>
-                                            <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                Ingresar
+                                            <button class="btn btn-primary" href="#!" onClick="modalbackdropOff()">
+                                                <i class="fas fa-angle-double-right"></i><Link to="/nomina" class="enlace">Ingresar</Link>
                                             </button>
                                         </div>
                                     </div>
@@ -139,8 +137,7 @@ class Dashboard extends Component {
                                             <img src="assets/img/portfolio/empleados.png" alt="..." width="350" class="img-fluid rounded mb-5" />
                                             <p class="mb-4">Ingresara con los permisos del usuario EMPLEADO ¿Desea continuar?</p>
                                             <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                                <i class="fas fa-angle-double-right"></i>
-                                                Ingresar
+                                                <i class="fas fa-angle-double-right"></i><Link to="/empleado" class="enlace">Ingresar</Link>
                                             </button>
                                         </div>
                                     </div>

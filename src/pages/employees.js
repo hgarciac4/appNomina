@@ -120,25 +120,37 @@ class Employee extends Component {
                 <section class="page-section portfolio bg-primary text-white" id="about">
                     <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>  
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center "></div>  
                             <div class= "empleado">
                                 <form>
-                                    <label for = "vinculacion">Fecha de vinculacion</label>
-                                    <input type="text"/>
-                                    <br/>
-                                    <label for = "cargo">Cargo</label>
-                                    <input type="text"/>
-                                    <br/>
-                                    <label for = "sueldo">Sueldo</label>
-                                    <input type="text"/>
-                                    <label for = "area">Area</label>
-                                    <input type="text"/>
-                                    <label for = "tipo">Nº Tipo de contrato</label>
-                                    <input type="text"/>
-                                    <label for = "celular">Nº Celular</label>
-                                    <input type="text"/>
-                                    <label for = "direccion">Direccion</label>
-                                    <input type="text"/>
+                                    <p>        
+                                        <label for = "vinculacion">Fecha de vinculacion</label>
+                                        <input type="text"/>
+                                    </p>
+                                    <p>        
+                                        <label for = "cargo">Cargo</label>
+                                        <input type="text"/>
+                                    </p>
+                                    <p>
+                                        <label for = "sueldo">Sueldo</label>
+                                        <input type="text"/>
+                                    </p>
+                                    <p>
+                                        <label for = "area">Area</label>
+                                        <input type="text"/>
+                                    </p>
+                                    <p>
+                                        <label for = "tipo">Nº Tipo de contrato</label>
+                                        <input type="text"/>
+                                    </p>
+                                    <p>
+                                        <label for = "celular">Nº Celular</label>
+                                        <input type="text"/>
+                                    </p>
+                                    <p>
+                                        <label for = "direccion">Direccion</label>
+                                        <input type="text"/>
+                                    </p>
                                 </form>
                             </div>
                         </div>   
