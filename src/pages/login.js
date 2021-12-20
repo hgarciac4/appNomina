@@ -17,7 +17,7 @@ class Login extends Component {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav ms-auto">
-                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">INICIO</a></li>
+                                <li class="nav-item mx-0 mx-lg-1"><Link class="nav-link py-3 px-0 px-lg-3 rounded" to="/">INICIO</Link></li>
                                 
                             </ul>
                         </div>
@@ -35,12 +35,12 @@ class Login extends Component {
                                 <input type="text" placeholder= "Ingresar usuario" />
                                 <label for = "Contraseña">Contraseña</label>
                                 <input type="password" placeholder= "Ingresar contraseña" />
-                                
-                                <input type="submit" value="Enviar" />
-                                <br></br><br></br>
-                                <a href="#">Recuperar contraseña</a>
+                                <br/>
+                                <Link to="/dashboard" class="enlace" >Enviar</Link>
+                                <br/><br/>
+                                <Link to="#" class="enlace" >Recuperar contraseña</Link>
                                 <br></br>
-                                <Link to="/home">Inicio</Link>
+                                <Link to="/home" class="enlace" >Inicio</Link>
                             </form> 
                         </div>
                         <div class="divider-custom divider-light">
@@ -48,7 +48,6 @@ class Login extends Component {
                             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                             <div class="divider-custom-line"></div>
                         </div>
-                        
                     </div>
                 </header>
             </div>
