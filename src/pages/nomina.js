@@ -281,7 +281,6 @@ class Nomina extends Component {
                                                         <button class="btn btn-primary btn-lg disabled" id="registro" type="button">Registrar</button>
                                                     </div>
                                             </div>
-                                            <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
                                             <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                                 <i class="fas fa-times fa-fw"></i>
@@ -309,8 +308,59 @@ class Nomina extends Component {
                                                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                                 <div class="divider-custom-line"></div>
                                             </div>
-                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/construccion.png" alt="..." />
-                                            <p class="mb-4">En construcción</p>
+                                        
+                                            <form id="contactForm">
+                                                    <div class="form-floating mb-3">
+                                                        <input class="form-control" id="findcc" type="text"  data-sb-validations="required" />
+                                                        <label for="findcc" >Ingrese número de cédula</label>
+                                                        <div class="invalid-feedback" data-sb-feedback="findcc:required">Ingrese número de cédula</div>
+                                                    </div>
+                                                    <div class="d-none" id="submitSuccessMessage">
+                                                        <div class="text-center mb-3">
+                                                            <div class="fw-bolder">Form submission successful!</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-none" id="submitErrorMessage">
+                                                        <div class="text-center text-danger mb-3">Error sending message!</div>
+                                                    </div>
+                                                    <div class="d-grid">
+                                                        <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Buscar</button>
+                                                    </div>
+                                            </form>
+
+                                            <form id="contactForm" >
+                                                <div class="form-floating mb-3">
+                                                    <input class="form-control" id="name" type="text" readonly data-sb-validations="required" />
+                                                    <label for="name">Nombre</label>
+                                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                                </div>
+                                                <div class="form-floating mb-3">
+                                                    <input class="form-control" id="fechaDeIngreso" type="date" placeholder="Fecha de ingreso" data-sb-validations="required" />
+                                                    <label class="form-label" for="fechaDeIngreso">Fecha de salida</label>
+                                                    <div class="invalid-feedback" data-sb-feedback="fechaDeIngreso:required">Fecha de salida is required.</div>
+                                                </div>
+                                                <div class="form-floating mb-3">
+                                                    <input class="form-control" id="fechaDeFinalizacionDeContrato" type="date" placeholder="Fecha de finalización de contrato" data-sb-validations="required" />
+                                                    <label class="form-label" for="fechaDeFinalizacionDeContrato">Fecha de regreso de permiso</label>
+                                                    <div class="invalid-feedback" data-sb-feedback="fechaDeFinalizacionDeContrato:required">Fecha de finalización de permiso is required.</div>
+                                                </div>
+                                                
+                                                <div class="d-none" id="submitSuccessMessage">
+                                                    <div class="text-center mb-3">
+                                                        <div class="fw-bolder">Form submission successful!</div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-none" id="submitErrorMessage">
+                                                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                                                </div>
+                                                <div class="d-grid">
+                                                    <button class="btn btn-primary btn-lg disabled" id="registro" type="button">Registrar</button>
+                                                </div>
+                                            </form>
+
+                                            <div class="container px-5 my-5">
+                                            </div>
+
                                             <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                                 <i class="fas fa-times fa-fw"></i>
                                                 Close Window
@@ -324,7 +374,7 @@ class Nomina extends Component {
                 </div>
                 
                 <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                             <div class="modal-body text-center pb-5">
@@ -332,6 +382,66 @@ class Nomina extends Component {
                                     <div class="row justify-content-center">
                                         <div class="col-lg-8">
                                             <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Vacaciones</h2>
+                                            <div class="divider-custom">
+                                                <div class="divider-custom-line"></div>
+                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                                <div class="divider-custom-line"></div>
+                                            </div>
+
+                                            <form id="contactForm" >
+                                                <div class="form-floating mb-3">
+                                                    <input class="form-control" id="name" type="text" readonly data-sb-validations="required" />
+                                                    <label for="name">Nombre</label>
+                                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                                </div>
+                                                <div class="form-floating mb-3">
+                                                    <input class="form-control" id="fechaDeIngreso" type="date" placeholder="Fecha de ingreso" data-sb-validations="required" />
+                                                    <label class="form-label" for="fechaDeIngreso">Fecha de inicio a vacaciones</label>
+                                                    <div class="invalid-feedback" data-sb-feedback="fechaDeIngreso:required">Fecha de inicio a vacaciones is required.</div>
+                                                </div>
+                                                <div class="form-floating mb-3">
+                                                    <input class="form-control" id="fechaDeFinalizacionDeContrato" type="date" placeholder="Fecha de finalización de contrato" data-sb-validations="required" />
+                                                    <label class="form-label" for="fechaDeFinalizacionDeContrato">Fecha de finalización de vacaciones</label>
+                                                    <div class="invalid-feedback" data-sb-feedback="fechaDeFinalizacionDeContrato:required">Fecha de finalización de vacaciones is required.</div>
+                                                </div>
+                                                
+                                                <div class="d-none" id="submitSuccessMessage">
+                                                    <div class="text-center mb-3">
+                                                        <div class="fw-bolder">Form submission successful!</div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-none" id="submitErrorMessage">
+                                                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                                                </div>
+                                                <div class="d-grid">
+                                                    <button class="btn btn-primary btn-lg disabled" id="registro" type="button">Registrar</button>
+                                                </div>
+                                            </form>
+
+                                            <div class="container px-5 my-5">
+                                            </div>
+
+                                            <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                                <i class="fas fa-times fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pagina en construcción</h2>
                                             <div class="divider-custom">
                                                 <div class="divider-custom-line"></div>
                                                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
