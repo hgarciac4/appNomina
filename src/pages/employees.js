@@ -31,176 +31,95 @@ class Employee extends Component {
                             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                             <div class="divider-custom-line"></div>
                         </div>
-                        <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
                     </div>
                 </header>
                 
-                <section class="page-section portfolio" id="portfolio">
-                    <div class="row justify-content-center">
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
-                                <div class= "empleado">
-                                    <form>
-                                        <p>
-                                            <label for = "Nombre de usuario">Nombres</label>
-                                            <input type="text"/>
-                                        </p>
-                                        <p>
-                                            <label for = "Apellidos">Apellidos</label>
-                                            <input type="text"/>
-                                        </p>
-                                        <p>
-                                            <label for = "T_documento">T.documento</label>
-                                            <input type="text"/>
-                                        </p>
-                                        <p>
-                                            <label for = "N_documento">Nº documento</label>
-                                            <input type="text"/>
-                                        </p>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
-                                <div class= "empleado">
-                                    <form>
-                                        <p>
-                                            <label for = "telefono">Nº Telefono</label>
-                                            <input type="text"/>
-                                        </p>
-                                        <p>
-                                            <label for = "celular">Nº Celular</label>
-                                            <input type="text"/>
-                                        </p>
-                                        <p>
-                                            <label for = "direccion">Direccion</label>
-                                            <input type="text"/>
-                                        </p>
-                                        <p>
-                                            <label for = "email">Email</label>
-                                            <input type="text"/>
-                                        </p>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
-                                <div class= "empleado">
-                                    <form>
-                                        <p>
-                                            <label for = "nacido">Fecha de nacimiento</label>
-                                            <input type="text"/>
-                                        </p>
-                                        <p>
-                                            <label for = "l_nacido">Lugar de nacimiento</label>
-                                            <input type="text"/>
-                                        </p>
-                                        <p>
-                                            <label for = "Estado">Estado civil</label>
-                                            <input type="text"/>
-                                        </p>
-                                        <p>
-                                            <label for = "profesion">Profesion</label>
-                                            <input type="text"/>
-                                        </p>
-                                    </form>
-                                </div>
-                            </div>
-                        </div> 
-                    </div> 
-                </section>
-                
-                <section class="page-section portfolio bg-primary text-white" id="about">
-                    <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center "></div>  
-                            <div class= "empleado">
-                                <form>
-                                    <p>        
-                                        <label for = "vinculacion">Fecha de vinculacion</label>
-                                        <input type="text"/>
-                                    </p>
-                                    <p>        
-                                        <label for = "cargo">Cargo</label>
-                                        <input type="text"/>
-                                    </p>
-                                    <p>
-                                        <label for = "sueldo">Sueldo</label>
-                                        <input type="text"/>
-                                    </p>
-                                    <p>
-                                        <label for = "area">Area</label>
-                                        <input type="text"/>
-                                    </p>
-                                    <p>
-                                        <label for = "tipo">Nº Tipo de contrato</label>
-                                        <input type="text"/>
-                                    </p>
-                                    <p>
-                                        <label for = "celular">Nº Celular</label>
-                                        <input type="text"/>
-                                    </p>
-                                    <p>
-                                        <label for = "direccion">Direccion</label>
-                                        <input type="text"/>
-                                    </p>
-                                </form>
-                            </div>
-                        </div>   
-                    </div>
-                </section>
-                
-                <section class="page-section" id="contact">
+                <section class="page-section portfolio" id="gestion">
                     <div class="container">
-                        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">VACACIONES</h2>
+                        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Gestión de Nómina</h2>
                         <div class="divider-custom">
                             <div class="divider-custom-line"></div>
                             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                             <div class="divider-custom-line"></div>
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-lg-8 col-xl-7">
-                                <form id="contactForm">
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">NOMBRE Y APELLIDOS</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <div class="col-md-6 col-lg-4 mb-5">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        <div class="portfolio-item-caption-content text-center text-white">Actualizar Datos</div>
                                     </div>
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                        <label for="email">Email</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">FECHA DE INGRESO</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." ></textarea>
-                                        <label for="message">MENSAJE</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                                    </div>
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Form submission successful!</div>
-                                        </div>
-                                    </div>
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                                </form>
+                                    <img class="img-fluid" src="assets/img/portfolio/crear.jpg" alt="..." />
+                                </div>
                             </div>
+                            <div class="col-md-6 col-lg-4 mb-5">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                                    <Link to="/crudPermisos" class="enlace">
+                                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                            <div class="portfolio-item-caption-content text-center text-white">Solicitudes de Permisos</div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/portfolio/permisos.jpg" alt="..." />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-5">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                                    <Link to="/crudVacaciones" class="enlace">
+                                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                            <div class="portfolio-item-caption-content text-center text-white">Solicitudes de Vacaciones</div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/portfolio/vacaciones.jpg" alt="..." />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-5">
+                                <div class="portfolio-item mx-auto" >
+                                    <Link to="/reportepago" class="enlace">
+                                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                            <div class="portfolio-item-caption-content text-center text-white">Reporte Pago</div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/portfolio/salario.png" alt="..." />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-5">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        <div class="portfolio-item-caption-content text-center text-white">Solicitar Certificado Laboral</div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/portfolio/contador.png" alt="..." />
+                                </div>
+                            </div>        
                         </div>
                     </div>
                 </section>
+
+                <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pagina en construcción</h2>
+                                            <div class="divider-custom">
+                                                <div class="divider-custom-line"></div>
+                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                                <div class="divider-custom-line"></div>
+                                            </div>
+                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/construccion.png" alt="..." />
+                                            <p class="mb-4">En construccion</p>
+                                            <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                                <i class="fas fa-times fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }

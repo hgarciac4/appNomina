@@ -7,6 +7,10 @@ import Dashboard from "../pages/dashboard";
 import Users from "../pages/users";
 import Employee from "../pages/employees";
 import Nomina from "../pages/nomina";
+import ReportePago from "./reportePago";
+
+import CrudPermisos from "./crudPermisos";
+import CrudVacaciones from "./crudVacaciones";
 
 function App() {
     return (
@@ -16,10 +20,14 @@ function App() {
                 <Route exact path="/home" element={<Home />} />
                 <Route exact path="/login" element={<Login />} />
                 <Route exact path="/dashboard" element={<Dashboard />} />
-                <Route exact path="/user" element={<Users />} />
+                <Route exact path="/users" element={<Users />} />
                 <Route exact path="/empleado" element={<Employee />} />
                 <Route exact path="/nomina" element={<Nomina />} />
-            </Routes>
+                <Route exact path="/reportePago" element={<ReportePago />} />
+                
+                <Route exact path="/crudPermisos" element={<CrudPermisos />} />
+                <Route exact path="/crudVacaciones" element={<CrudVacaciones />} />
+            </Routes> 
         </BrowserRouter>
     )
 }
